@@ -90,3 +90,5 @@ function Copy-StructurePermissions
 
 Remove-Item $LogFile
 Remove-Item $ChangeFile
+
+# Copy-StructurePermissions -Source "\\dee\shares\FSLTD\Departments\ICT\Shared\PermissionsTest" -Destination "\\don\shares\FSSL\Departments\ICT\Shared\PermissionsTest"
